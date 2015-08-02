@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["yamamotoAIIT"]
   spec.email         = ["a1548sy@aiit.ac.jp"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Test Project For AIIT Framework Development.}
+  spec.description   = %q{Test Project For AIIT Framework Development.}
+  spec.homepage      = "https://github.com/yamamotoAIIT/mini_test_practice"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

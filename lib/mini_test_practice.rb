@@ -1,5 +1,6 @@
 # -*- encoding: UTF-8 -*-
-
+#
+#
 require "mini_test_practice/version"
 
 module MiniTestPractice
@@ -44,6 +45,18 @@ module MiniTestPractice
     def hello_out
       puts "hello"
     end
+    
+    def fizzbuzz(n)
+      case
+      when n%5==0 && n%3==0; 'FizzBuzz'
+      when n%5==0; 'Buzz'
+      when n%3==0; 'Fizz'
+      else n
+      end
+    end    
+    
+    
+    
     
   end  #Classの終わりのend
 end

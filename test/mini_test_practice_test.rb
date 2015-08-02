@@ -44,4 +44,11 @@ class MiniTestPracticeTest < Minitest::Test
 
   end
 
+  def test_fizzbuzz
+    assert_equal "Fizz", @main.fizzbuzz(3) 
+    assert_equal "Buzz", @main.fizzbuzz(5) 
+    assert_equal "FizzBuzz", @main.fizzbuzz(15) 
+
+  end
+
 end
